@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Log in | LearnSpace</title><link rel="stylesheet" href="style.css"></head>
+<body class="auth-body">
+<header class="topbar auth-top"><a class="brand" href="index.html"><span class="brand-mark">L</span> LearnSpace</a><a href="index.html" class="login-link">← Back to home</a></header>
+<main class="auth-layout">
+  <section class="auth-side"><span class="eyebrow">WELCOME BACK</span><h1>Your learning<br>journey continues.</h1><p>Log in to check your courses, assignments and progress in one place.</p><div class="auth-quote">“Small steps every day lead to big results.”<small>— Your learning space</small></div></section>
+  <section class="auth-card"><div class="auth-logo">L</div><h2>Welcome back</h2><p class="muted">Enter your details to access your student space.</p>
+    <form id="loginForm">
+      <label for="email">Email address</label><input id="email" type="email" placeholder="student@example.com" required>
+      <div class="label-row"><label for="password">Password</label><a href="#" id="forgotLink">Forgot password?</a></div><input id="password" type="password" placeholder="Enter your password" required>
+      <label class="check-label"><input type="checkbox"> Remember me</label>
+      <button class="btn full-btn" type="submit">Log in <span>→</span></button>
+      <p id="loginMessage" class="form-message"></p>
+    </form>
+    <p class="auth-switch">New to LearnSpace? <a href="signup.html">Create an account</a></p>
+    <p class="demo-note">Demo login: enter any valid email and a password of 4+ characters.</p>
+  </section>
+</main><script src="script.js"></script></body></html>

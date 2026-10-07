@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Create account | LearnSpace</title><link rel="stylesheet" href="style.css"></head>
+<body class="auth-body">
+<header class="topbar auth-top"><a class="brand" href="index.html"><span class="brand-mark">L</span> LearnSpace</a><a href="index.html" class="login-link">← Back to home</a></header>
+<main class="auth-layout">
+  <section class="auth-side"><span class="eyebrow">START SOMETHING GREAT</span><h1>Build your<br>learning habit.</h1><p>Create your student demo account and explore the LMS dashboard.</p><div class="auth-quote">Courses. Materials. Assignments.<small>Everything connected in one place.</small></div></section>
+  <section class="auth-card"><div class="auth-logo">L</div><h2>Create account</h2><p class="muted">A few details and you are ready to explore.</p>
+    <form id="signupForm">
+      <label for="name">Full name</label><input id="name" type="text" placeholder="Your full name" required>
+      <label for="signupEmail">Email address</label><input id="signupEmail" type="email" placeholder="student@example.com" required>
+      <label for="signupPassword">Create password</label><input id="signupPassword" type="password" minlength="4" placeholder="At least 4 characters" required>
+      <button class="btn full-btn" type="submit">Create account <span>→</span></button><p id="signupMessage" class="form-message"></p>
+    </form><p class="auth-switch">Already registered? <a href="login.html">Log in</a></p><p class="demo-note">This is a frontend-only demo. It does not save real accounts.</p>
+  </section>
+</main><script src="script.js"></script></body></html>
